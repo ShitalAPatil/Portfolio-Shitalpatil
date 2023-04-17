@@ -1,0 +1,432 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+  max-width: 960px;
+  padding: 0 20px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #141d38;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin-left: 40px;
+}
+
+header nav li:first-child {
+  margin-left: 0;
+}
+
+header nav a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s ease-in-out;
+}
+
+header nav a:hover {
+  color: #007bff;
+}
+
+
+/* Home Section */
+#home {
+  background-image: url("./IMG/about-me-background.jpg");
+  padding: 80px 0;
+
+}
+
+#home h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #141d38;
+}
+
+#home p {
+  font-size: 34px;
+  margin-bottom: 40px;
+  color: #141d38; 
+}
+.containerHome{
+  display: flex;
+ justify-content: space-between;
+align-items: center;
+  /* padding: 22px; */
+/* color: #0b1040; */
+
+}
+.left{
+  padding-left: 50px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px; 
+  margin-right: 10px;
+  color: white;
+}
+.email img{
+ 
+  width: 45px;
+  height: 45px;
+}
+.right img{
+  width: 300px;
+  height: 350px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20%;
+  background-color: #140d5a;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: #9eeccc;
+}
+
+/* About Section Styles */
+#about {
+  background-image: url("./IMG/about-me-background.jpg");
+  padding: 100px 0;
+}
+
+.container img{
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-weight: 700;
+  /* margin-bottom: 30px; */
+  text-align: center;
+  color: #141d38;
+}
+
+#about p {
+  font-size: 18px;
+  padding: 36px;
+  margin-bottom: 30px;
+  color: #141d38;
+}
+.text{
+  font-weight: 500;
+}
+
+
+/* Education Section Styles */
+#education {
+  padding: 20px;
+ padding-bottom: 80px;
+  background-image: url("./IMG/about-me-background.jpg");
+}
+
+.education-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.education-details {
+  font-style: italic;
+  
+  margin-bottom: 10px;
+}
+#acciojobs{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.edu{
+  padding-top: 75px;
+  padding-bottom: 50px;
+ text-align: center;
+  font-size: 32px;
+}
+/* skills */
+#skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#skillh {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-left,
+.flex-right {
+  width: calc(50% - 20px);
+}
+
+.flex-left ul,
+.flex-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-left li,
+.flex-right li {
+  font-size: 1.2rem;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.flex-left li:hover,
+.flex-right li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.flex-left li:nth-child(1),
+.flex-right li:nth-child(1) {
+  background-color: #1c1632;
+  color: #fff;
+}
+
+.flex-left li:nth-child(2),
+.flex-right li:nth-child(2) {
+  background-color: #130f2f;
+  color: #fff;
+}
+
+.flex-left li:nth-child(3),
+.flex-right li:nth-child(3) {
+  background-color: #130d24;
+  color: #fff;
+}
+
+#skills {
+  background-image: url("./IMG/about-me-background.jpg");
+  padding-bottom: 94px;
+}
+
+#skills h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#skills ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#projects {
+  background-image: url("./IMG/about-me-background.jpg");
+  padding: 50px 0;
+  padding: 30px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project {
+  width: 30%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+ 
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+#projects h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #141d38;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #9eeccc;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #141d38;
+  color: #fff;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-bars .bar {
+    width: calc(50% - 20px);
+  }
+}
+
+
+/* Experiece section */
+
+#experience {
+  background-image: url("./IMG/about-me-background.jpg");
+  padding: 80px;
+  
+
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  
+}
+
+.experience-item {
+  margin-bottom: 50px;
+}
+
+.experience-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-date {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.experience-description {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.experience-description li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
