@@ -88,8 +88,8 @@ header nav a:hover {
 /* Home Section */
 #home {
   background-image: url("./IMG/about-me-background.jpg");
-  padding: 80px 0;
-  padding-bottom: 120px;
+  padding: 140px 0;
+  padding-bottom: 10px;
 
 }
 
@@ -109,8 +109,8 @@ header nav a:hover {
   display: flex;
  justify-content: space-between;
 align-items: center;
-  /* padding: 22px; */
-/* color: #0b1040; */
+ 
+
 
 }
 .left{
@@ -160,7 +160,7 @@ align-items: center;
 /* About Section Styles */
 #about {
   background-image: url("./IMG/about-me-background.jpg");
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 .container img{
@@ -170,15 +170,15 @@ align-items: center;
 }
 
 #about h2 {
+  padding-bottom: 7px;
   font-size: 36px;
   font-weight: 700;
- 
-  text-align: center;
+   text-align: center;
   color: #141d38;
 }
 
 #about p {
-  font-size: 18px;
+  font-size: 16px;
   padding: 36px;
   margin-bottom: 30px;
   color: #141d38;
