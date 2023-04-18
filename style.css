@@ -88,7 +88,7 @@ header nav a:hover {
 /* Home Section */
 #home {
   background-image: url("./IMG/about-me-background.jpg");
-  padding: 140px 0;
+  padding: 100px 0;
  
 }
 
@@ -159,7 +159,7 @@ align-items: center;
 /* About Section Styles */
 #about {
   background-image: url("./IMG/about-me-background.jpg");
-  padding: 80px 30px;
+  padding: 100px 20px;
 }
 
 .container img{
@@ -169,7 +169,7 @@ align-items: center;
 }
 
 #about h2 {
-  padding-bottom: 7px;
+  padding-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
    text-align: center;
@@ -178,8 +178,7 @@ align-items: center;
 
 #about p {
   font-size: 18px;
-  padding: 36px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #141d38;
 }
 .text{
