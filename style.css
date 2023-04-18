@@ -89,6 +89,7 @@ header nav a:hover {
 #home {
   background-image: url("./IMG/about-me-background.jpg");
   padding: 80px 0;
+  padding-bottom: 120px;
 
 }
 
