@@ -171,7 +171,7 @@ align-items: center;
 #about h2 {
   font-size: 36px;
   font-weight: 700;
-  /* margin-bottom: 30px; */
+ 
   text-align: center;
   color: #141d38;
 }
@@ -324,11 +324,6 @@ align-items: center;
   cursor: pointer;
 }
 
-.project img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
 
 .project:hover {
   transform: translateY(-10px);
@@ -376,11 +371,6 @@ footer {
   padding: 20px 0;
 }
 
-@media screen and (max-width: 768px) {
-  .skill-bars .bar {
-    width: calc(50% - 20px);
-  }
-}
 
 
 /* Experiece section */
@@ -430,3 +420,59 @@ footer {
   margin-bottom: 10px;
   line-height: 1.5;
 }
+
+
+
+@media (max-width: 767px) {
+  .body {
+    overflow-x: hidden; /* remove overflow-y and add overflow-x */
+  }
+  .nav-links{
+    display: none;
+  }
+
+  .project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* add flex-wrap to wrap projects */
+    width: 100%; /* change width to 100% */
+  }
+
+  .project {
+    width: 100%; /* change width to 100% */
+    margin-bottom: 30px;
+  }
+
+  .project h2 {
+    text-align: center;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .skills-list {
+    display: flex; /* add display flex to keep skills inline */
+    flex-wrap: wrap; /* add flex-wrap to wrap skills */
+    justify-content: center;
+  }
+
+  .skill {
+    margin: 10px; /* reduce margin-bottom to add spacing between skills */
+  }
+
+  .right img,
+  .container img {
+    display: none;
+  }
+
+  .experience-description{
+    display: none;
+  }
+}
+
+
+
+
+
+
